@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Unlock.it – Auto Keys & ECU Tuning Devon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Mobile auto locksmith and ECU remapping in Devon. Car key cutting, key programming, diagnostics and tuning – we come to you within 25 miles of Torquay."
+  />
+  <style>
+    :root {
+      --primary: #1b6fd9;
+      --primary-dark: #144f9d;
+      --bg: #050814;
+      --text: #f5f5f5;
+      --muted: #b0b7c6;
+      --accent: #21c26a;
+      --card: #101626;
+      --radius-lg: 18px;
+      --shadow-soft: 0 18px 40px rgba(0, 0, 0, 0.45);
+    }
+    * {box-sizing: border-box; margin: 0; padding: 0;}
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #192642 0, #050814 55%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a {color: inherit; text-decoration: none;}
+    img {max-width: 100%; display: block;}
+    .page {min-height: 100vh; display: flex; flex-direction: column;}
+    .container {max-width: 1120px; margin: 0 auto; padding: 0 1.5rem;}
+    header {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: blur(18px);
+      background: linear-gradient(to bottom, rgba(5,8,20,0.96), rgba(5,8,20,0.7));
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .nav {display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 0.9rem 0;}
+    .logo {display: flex; align-items: center; gap: 0.7rem;}
+    .logo-mark {
+      width: 36px; height: 36px; border-radius: 12px;
+      background: radial-gradient(circle at 30% 0, #3ea3ff 0, var(--primary) 45%, #020617 90%);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 800; font-size: 1.1rem;
+    }
+    .logo-text-main {font-weight: 700; letter-spacing: 0.03em; font-size: 1.05rem;}
+    .logo-text-sub {font-size: 0.7rem; text-transform: uppercase; color: var(--muted);}
+    .nav-links {display: flex; align-items: center; gap: 1.5rem; font-size: 0.9rem;}
+    .nav-links a {color: var(--muted);}
+    .nav-links a:hover {color: #fff;}
+    .pill {
+      font-size: 0.75rem; padding: 0.3rem 0.7rem; border-radius: 999px;
+      border: 1px solid rgba(148,163,184,0.6); color: var(--muted);
+    }
+    .btn {
+      border: none; cursor: pointer; border-radius: 999px;
+      padding: 0.6rem 1.3rem; font-weight: 600;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      box-shadow: var(--shadow-soft); color: white; display: inline-flex; align-items: center; gap: 0.4rem;
+    }
+    .hero {padding: 3rem 0;}
+    .hero-title {font-size: clamp(2.3rem, 4vw, 3.1rem); margin-bottom: 1rem;}
+    .hero-title span {background: linear-gradient(120deg,#38bdf8,#60a5fa,#e5e7eb); -webkit-background-clip: text; color: transparent;}
+    .hero-lead {font-size: 0.98rem; color: var(--muted); margin-bottom: 1.5rem; max-width: 34rem;}
+    .hero-badges {display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.8rem;}
+    .hero-badge {font-size: 0.75rem; padding: 0.25rem 0.6rem; border: 1px solid rgba(148,163,184,0.4); border-radius: 999px;}
+    .hero-actions {display: flex; flex-wrap: wrap; gap: 0.8rem;}
+    section {padding: 2.5rem 0;}
+    .section-title {font-size: 1.5rem; margin-bottom: 0.4rem;}
+    .section-subtitle {font-size: 0.9rem; color: var(--muted); max-width: 34rem;}
+    .cards-grid {display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 1.4rem;}
+    .card {background: var(--card); border-radius: var(--radius-lg); padding: 1.2rem; border: 1px solid rgba(148,163,184,0.3);}
+    .card-title {font-size: 1rem; margin-bottom: 0.3rem;}
+    .card-body {font-size: 0.86rem; color: var(--muted); margin-bottom: 0.7rem;}
+    .price-row {display: flex; justify-content: space-between; padding: 0.35rem 0; border-bottom: 1px dotted rgba(148,163,184,0.4);}
+    .price-note {font-size: 0.75rem; color: var(--muted); margin-top: 0.7rem;}
+    footer {border-top: 1px solid rgba(15,23,42,0.9); background: #020617; padding: 1rem 0; font-size: 0.78rem; color: var(--muted);}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <div class="logo-mark">U</div>
+            <div>
+              <div class="logo-text-main">Unlock.it</div>
+              <div class="logo-text-sub">Auto Keys & ECU Tuning</div>
+            </div>
+          </div>
+          <div class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#pricing">Prices</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="pill">Devon · Mobile service · 0–25 miles free</div>
+          <a href="tel:+447349091322" class="btn">📞 Call 07349 091322</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">We unlock more than doors – <span>keys, ECUs & performance</span> on wheels.</h1>
+          <p class="hero-lead">
+            Car key cutting, key programming, diagnostics and ECU tuning at your location. 
+            Based in Torquay, covering up to 25 miles with no call-out fee in our standard zone.
+          </p>
+          <div class="hero-badges">
+            <div class="hero-badge">Emergency lockouts</div>
+            <div class="hero-badge">Lost keys & spare keys</div>
+            <div class="hero-badge">Stage 1 remaps</div>
+            <div class="hero-badge">EGR / DPF solutions (off-road)</div>
+          </div>
+          <div class="hero-actions">
+            <a href="tel:+447349091322" class="btn">📲 Call now – 07349 091322</a>
+            <a href="https://wa.me/447349091322" class="btn" style="background:#128C7E;">💬 WhatsApp quote</a>
+          </div>
+          <p>7 days a week · <strong>Mobile service only</strong> · Devon, UK</p>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <h2 class="section-title">Auto locksmith & ECU tuning – in one van</h2>
+          <p class="section-subtitle">We come to your home, work or roadside with professional tools for keys, diagnostics and tuning.</p>
+          <div class="cards-grid">
+            <div class="card">
+              <h3 class="card-title">Car keys & remotes</h3>
+              <p class="card-body">Lost keys, spare keys or broken remotes – we cut and program keys on the spot.</p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Fleet & trade support</h3>
+              <p class="card-body">Ideal for workshops, dealers and companies with vans or campers. We keep your vehicles moving.</p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Diagnostics & coding</h3>
+              <p class="card-body">Modern diagnostic tools to quickly find issues and code new parts or keys.</p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">ECU remapping</h3>
+              <p class="card-body">Safe, sensible tuning focused on torque, reliability and fuel economy.</p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Vans & campers</h3>
+              <p class="card-body">Experience with popular vans and motorhomes – perfect for trades and travellers.</p>
+            </div>
+            <div class="card">
+              <h3 class="card-title">Emergency lockouts</h3>
+              <p class="card-body">Locked out? We use non-destructive methods wherever possible to get you back in.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <div class="container">
+          <h2 class="section-title">Transparent prices with local call-out included</h2>
+          <p class="section-subtitle">Final price depends on vehicle, key type and exact location.</p>
+          <div class="card">
+            <div class="price-row"><span>Emergency lockout</span><span>from £79.99</span></div>
+            <div class="price-row"><span>Spare key (standard blade)</span><span>from £89.99</span></div>
+            <div class="price-row"><span>Spare remote key</span><span>from £119.99</span></div>
+            <div class="price-row"><span>Lost all keys (AKL)</span><span>from £169.99</span></div>
+            <div class="price-row"><span>Stage 1 ECU remap</span><span>from £199.99</span></div>
+            <div class="price-row"><span>Diagnostics visit</span><span>from £49.99</span></div>
+            <p class="price-note">Prices are guide only and may change depending on make, model, year and distance.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <h2 class="section-title">Independent, mobile and obsessed with cars</h2>
+          <p class="section-subtitle">
+            Unlock.it is a small, independent mobile service based in Devon – combining auto locksmith skills
+            with ECU tuning and diagnostics.
+          </p>
+          <p>You don’t have to tow the car to a dealer or wait for days. We bring the workshop to you – tools, software and experience with modern vehicles.</p>
+          <p>Owner-operated, flexible and friendly: we understand how important your vehicle is for work and family. That’s why we aim for clear communication, honest advice and fair prices.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2 class="section-title">Book a visit or ask for a quote</h2>
+          <p class="section-subtitle">The quickest way is to call or message us with your reg, make, model, year and location.</p>
+          <div class="card">
+            <p><strong>Phone:</strong> <a href="tel:+447349091322">07349 091322</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/447349091322" target="_blank">Chat on WhatsApp</a></p>
+            <p><strong>Email:</strong> <a href="mailto:unlockcar@yahoo.com">unlockcar@yahoo.com</a></p>
+            <p><strong>Base:</strong> Torquay, Devon · Mobile only</p>
+            <p style="margin-top:1rem; font-size:0.9rem;">For the fastest reply, send:<br>
+              · Registration number<br>
+              · Make, model, year<br>
+              · What you need (spare key, lost keys, remap, diagnostics)<br>
+              · Your location (town / postcode)
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        © <span id="year"></span> Unlock.it – Auto Keys & ECU Tuning · Devon, UK
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
